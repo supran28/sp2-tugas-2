@@ -19,8 +19,14 @@
 //                        ]  
 //
                          
-var reactNative =["Hafif","Dayat","Wandi"];
-var reactJs =["Yusuf","Luthfi","Tompel"];
-var JavaScriptDivison = reactNative.concat(reactJs);
-console.log("Java Script Divison =" + JavaScriptDivison.toString())
-document.write("Java Script Divison =" + JavaScriptDivison.toString())
+//var reactNative =["Hafif","Dayat","Wandi"];
+//var reactJs =["Yusuf","Luthfi","Tompel"];
+//var JavaScriptDivison = reactNative.concat(reactJs);
+//console.log("Java Script Divison =" + JavaScriptDivison.toString())
+//document.write("Java Script Divison =" + JavaScriptDivison.toString())
+
+
+var santriPondok =[" ", "Wandi","Aldi","Acep","Putra","Hafif","Syofyan","Rahmad"]
+for(var i = 1; i < santriPondok.length; i++){
+ console.log(i + "." + " " + santriPondok[i])
+}
